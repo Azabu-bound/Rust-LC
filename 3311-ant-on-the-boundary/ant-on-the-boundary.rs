@@ -3,7 +3,7 @@ impl Solution {
         let mut current_place: i32 = 0;
 
         let mut result: i32 = 0;
-        for num in &nums {
+        for num in nums {
             current_place += num;
             if current_place == 0 { result += 1; }
         }
