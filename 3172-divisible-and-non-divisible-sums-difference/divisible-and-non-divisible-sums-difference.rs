@@ -11,6 +11,6 @@ impl Solution {
             }
         }
 
-        (num1 - num2) as i32
+        num1 - num2
     }
 }
