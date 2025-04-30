@@ -7,7 +7,6 @@ impl Solution {
             if c == letter {
                 count += 1.0;
             }
-            println!("count: {}", count);
         }
 
         (count / n * 100.0) as i32
